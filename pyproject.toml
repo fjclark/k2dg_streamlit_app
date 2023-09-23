@@ -1,0 +1,12 @@
+[project]
+name = "k2dg_streamlit_app"
+version = "1.0.0"
+description = "A streamlit app for k2dg: allows interconversion of binding free energies and dissociation constants"
+authors = [{name = "Finlay Clark"}]
+readme = "README.md"
+requires-python = ">=3.9.0"
+dependencies = ["streamlit", "k2dg", "matplotlib"]
+
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
